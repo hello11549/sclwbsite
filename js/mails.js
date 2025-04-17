@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	document.getElementById("feeForm").addEventListener("submit", function(event) {
 			event.preventDefault();
 
-			var pdfUrl = "/images/dummy.pdf"; // Ensure correct path
+			var pdfUrl = "/images/Vivekananda_Fee_Structure_Updated.pdf"; // Ensure correct path
 			
 			var link = document.createElement("a");
 			link.href = pdfUrl;
